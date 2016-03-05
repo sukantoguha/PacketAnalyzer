@@ -1,20 +1,20 @@
 /*global Backbone */
-var app = app || {};
+// var app = app || {};
 
-(function () {
-	'use strict';
-	var PacketRouter = Backbone.Router.extend({
-		routes: {
-			'home': 'setFilter'
-		},
+// (function () {
+// 	'use strict';
+// 	var PacketRouter = Backbone.Router.extend({
+// 		routes: {
+// 			'home': 'experimentViewDisplay'
+// 		},
 
-		setFilter: function () {       
-          var experimentView = new app.ExperimentView({ el: $("#experiment-template") });
-          window.location.href ="first.html";
-          experimentView.render();
-		}
-	});
+// 		experimentViewDisplay: function () {   
+// 		debugger    
+//           var experimentView = new app.ExperimentView();
+          
+// 		}
+// 	});
 
-	app.PacketRouter = new PacketRouter();
-	Backbone.history.start();
-})();
+// 	app.PacketRouter = new PacketRouter();
+// 	Backbone.history.start();
+// })();
