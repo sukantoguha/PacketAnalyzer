@@ -11,6 +11,7 @@ var app = app || {};
 			 'click .inputEmail3' : 'authenticate'
 		},
 		authenticate : function() {
+			debugger
         	alert("Hello");
     	},
 		
